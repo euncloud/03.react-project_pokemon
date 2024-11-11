@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node.js 관련 폴더
+node_modules/      # npm 라이브러리 폴더 (필수적으로 무시)
+dist/              # 빌드 폴더
+build/             # 빌드 폴더
+
+# 환경 변수 파일
+.env               # 민감한 정보가 포함된 환경 변수 파일
+
+# 운영체제별 시스템 파일
+.DS_Store          # macOS 시스템 파일
+Thumbs.db          # Windows 시스템 파일
+
+# 로그 파일
+*.log              # 모든 .log 파일
+npm-debug.log*     # npm 디버그 로그
+yarn-debug.log*    # yarn 디버그 로그
+
+# IDE 및 에디터 관련 파일
+.vscode/           # VSCode 설정 폴더
+.idea/             # JetBrains IDE 설정 폴더
+*.sublime-project
+*.sublime-workspace
