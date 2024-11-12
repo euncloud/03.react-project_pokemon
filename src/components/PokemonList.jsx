@@ -3,10 +3,10 @@ import { PokemonDiv } from '../styles/DexStyle';
 import PokemonCard from './PokemonCard';
 
 
-function PokemonList({handleAddPokemon}) {
+function PokemonList() {
   return (
     <PokemonDiv>
-      <PokemonCard handleAddPokemon={handleAddPokemon}/>
+      <PokemonCard/>
     </PokemonDiv>
   )
 }

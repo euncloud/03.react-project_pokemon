@@ -15,3 +15,6 @@
 - **Styled-components**
 - **Redux**
 - **Vercel**
+
+### 📬 연락처
+- 이메일: eunyeong.cloud@gmail.com

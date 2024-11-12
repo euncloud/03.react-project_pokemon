@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { PokemonCardDiv, PokemonImg, PokemonName, PokemonDetailP, ControlBtn } from '../styles/DexStyle';
 import MOCK_DATA from "../data/MOCK_DATA"; // pokemon data
 import { useNavigate } from 'react-router-dom';
+import { PokemonContext } from '../context/PokemonContext';
 
-function PokemonCard({ handleAddPokemon }) {
+function PokemonCard() {
     const navigate = useNavigate();
+    const {handleAddPokemon} = useContext(PokemonContext);
 
     // 포켓몬 카드를 클릭하면 상세 페이지로 이동
     const handleCardClick = (id, e) => {

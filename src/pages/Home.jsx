@@ -8,8 +8,8 @@ function Home() {
     return (
         <>
             <HomeDiv>
-                <HomeImg src="src\assets\Pokemon.png" alt="Logo Image" />
-                <Link to="/dex">
+                <HomeImg src="src\assets\Pokemon-logo.png" alt="Logo Image" />
+                <Link to="dex">
                     <HomeBtn>포켓몬 도감 시작하기</HomeBtn>
                 </Link>
             </HomeDiv>

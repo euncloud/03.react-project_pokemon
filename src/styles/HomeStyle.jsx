@@ -9,7 +9,7 @@ export const HomeDiv = styled.div`
     align-items: center;
 `
 export const HomeImg = styled.img`
-    width: 900px;
+    width: 700px;
 `
 
 export const HomeBtn = styled.button`

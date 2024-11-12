@@ -1,18 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {
   DashboardDiv, DashboardTitle, DashboardCardDiv, DashboardBallCard, BallImg,
   DashboardPokemonCard, PokemonImg, PokemonName, PokemonDetailP, ControlBtn
 } from '../styles/DexStyle';
+import { PokemonContext } from '../context/PokemonContext';
 
-function Dashboard({ selectedPokemons, setSelectedPokemons }) {
+function Dashboard() {
   const totalCount = 6;
+  const {selectedPokemons, handleDeletePokemon} = useContext(PokemonContext);
   const selectedCount = selectedPokemons.length; // 배열에 들어있는 실제 포켓몬 개수
 
-  const handleDeletePokemon = (pokemon) => {
-    // console.log('selectedPokemons', selectedPokemons);
-    const filteredPokemons = selectedPokemons.filter((ele) => ele.id !== pokemon.id);
-    setSelectedPokemons(filteredPokemons);
-  }
 
   return (
     <DashboardDiv>

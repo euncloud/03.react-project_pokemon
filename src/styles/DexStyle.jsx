@@ -142,3 +142,11 @@ export const PokemonDetailDiv = styled.div`
     justify-content: center;
     align-items: center;
 `
+
+export const PokemonDetailBtnDiv = styled.div`
+    width: 150px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+`
