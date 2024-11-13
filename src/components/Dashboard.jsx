@@ -26,7 +26,7 @@ function Dashboard() {
 
         {[...Array(totalCount - selectedCount)].map((_, index) => (
           <DashboardBallCard key={`pokemon-${index}`}>
-            <BallImg src="src\assets\ball.png" alt="Ball Image" />          </DashboardBallCard>
+            <BallImg src="/images/ball.png" alt="Ball Image" />          </DashboardBallCard>
         ))}
       </DashboardCardDiv>
     </DashboardDiv>
