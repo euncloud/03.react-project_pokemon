@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
             <HomeDiv>
-                <HomeImg src="/images/Pokemon-logo.png" alt="Logo Image" />
+                <HomeImg src="/images/pokemon-logo.png" alt="Logo Image" />
                 <Link to="dex">
                     <HomeBtn>포켓몬 도감 시작하기</HomeBtn>
                 </Link>
