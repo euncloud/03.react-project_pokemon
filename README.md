@@ -1,5 +1,8 @@
 # React - Pokemon 도감
 
+### 배포 링크
+🔗 [프로젝트 배포 사이트](https://03-react-project-pokemon.vercel.app/)
+
 ### 📝 프로젝트 설명
 포켓몬 리스트에서 포켓몬 상세 정보를 확인하고, 나만의 포켓몬에 등록, 삭제할 수 있습니다.
 
